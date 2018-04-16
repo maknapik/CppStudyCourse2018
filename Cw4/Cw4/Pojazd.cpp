@@ -3,7 +3,7 @@
 
 namespace lib
 {
-	Pojazd::Pojazd(const Osoba& _wlasciciel, int _przebieg) : wlasciciel(_wlasciciel), przebieg(_przebieg)
+	Pojazd::Pojazd(const Osoba& _wlasciciel, int _przebieg, float _moc_kw) : wlasciciel(_wlasciciel), przebieg(_przebieg), moc_kw(_moc_kw)
 	{
 	}
 
@@ -13,7 +13,9 @@ namespace lib
 
 	string Pojazd::opis() const
 	{
-		return "Wlasciciel: " + wlasciciel.opis() + ", przebieg: " + to_string(przebieg) + ", moc KW: " + to_string(moc_kw);
+		stringstream ss;
+		wlasciciel.zapisz(ss);
+		return "Wlasciciel: " + ss.str() + ", przebieg: " + to_string(przebieg) + ", moc KW: " + to_string(moc_kw);
 	}
 
 	float Pojazd::mocKW() const

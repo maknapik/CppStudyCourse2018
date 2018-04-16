@@ -4,8 +4,15 @@
 namespace lib
 {
 
-	Osoba::Osoba(const string& _imie, const string& _nazwisko, int _rok_ur)
+	Osoba::Osoba(const string& _imie, const string& _nazwisko, int _rok_ur) : imie(_imie), nazwisko(_nazwisko), rok_ur(_rok_ur)
 	{
+	}
+
+	Osoba::Osoba(const Osoba & osoba)
+	{
+		imie = osoba.imie;
+		nazwisko = osoba.nazwisko;
+		rok_ur = osoba.rok_ur;
 	}
 
 	void Osoba::ustawImie(const string & im)
@@ -16,11 +23,6 @@ namespace lib
 	string Osoba::pobierzImie() const
 	{
 		return string();
-	}
-
-	string Osoba::opis() const
-	{
-		return imie + " " + nazwisko + ", " + to_string(rok_ur);
 	}
 
 	bool Osoba::zapisz(ostream & os) const
@@ -39,6 +41,12 @@ namespace lib
 
 	Osoba::~Osoba()
 	{
+	}
+
+	ostream & operator<<(ostream & os, const Osoba & osoba)
+	{
+		os << osoba.imie << " " << osoba.nazwisko << " " << osoba.rok_ur;
+		return os;
 	}
 
 }

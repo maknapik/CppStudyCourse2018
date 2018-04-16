@@ -4,7 +4,7 @@
 namespace lib
 {
 
-	PojazdSilnikowy::PojazdSilnikowy(const Osoba & _wlasciciel, int _przebieg, float _pojemnosc, int _moc_km) : Pojazd(_wlasciciel, _przebieg), pojemnosc(_pojemnosc), moc_km(_moc_km)
+	PojazdSilnikowy::PojazdSilnikowy(const Osoba & _wlasciciel, int _przebieg, float _pojemnosc, int _moc_kw) : Pojazd(_wlasciciel, _przebieg, _moc_kw), pojemnosc(_pojemnosc), moc_km(_moc_kw / 1.40f)
 	{
 	}
 

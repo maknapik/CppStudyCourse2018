@@ -3,6 +3,7 @@
 
 #include <string>
 #include <iostream>
+#include <sstream>
 
 #include "Osoba.h"
 
@@ -13,7 +14,7 @@ namespace lib
 	class Pojazd
 	{
 	public:
-		Pojazd(const Osoba& _wlasciciel, int _przebieg);
+		Pojazd(const Osoba& _wlasciciel, int _przebieg, float _moc_kw);
 		virtual ~Pojazd();
 		virtual string opis() const; /// zwraca napis z wszystkimi atrybutami (np. "wlasciciel: Jan Kowalski 1970, przebieg: 120000")
 		virtual float mocKW() const;
