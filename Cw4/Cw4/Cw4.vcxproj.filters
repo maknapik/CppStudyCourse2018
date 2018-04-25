@@ -21,13 +21,19 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Pojazd.h">
+    <ClInclude Include="Figura.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Osoba.h">
+    <ClInclude Include="Punkt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PojazdSilnikowy.h">
+    <ClInclude Include="Kolo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pierscien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trojkat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,13 +44,19 @@
     <ClCompile Include="Cw4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pojazd.cpp">
+    <ClCompile Include="Figura.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Osoba.cpp">
+    <ClCompile Include="Punkt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PojazdSilnikowy.cpp">
+    <ClCompile Include="Kolo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pierscien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trojkat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
