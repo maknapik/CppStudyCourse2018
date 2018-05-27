@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Cw6.dir/main.cpp.o CMakeFiles/Cw6.dir/Obiect.cpp.o CMakeFiles/Cw6.dir/random.cpp.o  -o Cw6 

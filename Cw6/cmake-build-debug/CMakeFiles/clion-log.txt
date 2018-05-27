@@ -1,0 +1,4 @@
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mateusz/Documents/CppStudyCourse2018/Cw6
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mateusz/Documents/CppStudyCourse2018/Cw6/cmake-build-debug

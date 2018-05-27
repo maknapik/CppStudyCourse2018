@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.cpp
+Obiect.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.h
+
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.h
+iostream
+-
+random.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/random.h
+
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/main.cpp
+iostream
+-
+vector
+-
+set
+-
+map
+-
+algorithm
+-
+Obiect.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.h
+
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/random.cpp
+iostream
+-
+ctime
+-
+random.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/random.h
+
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/random.h
+random
+-
+
