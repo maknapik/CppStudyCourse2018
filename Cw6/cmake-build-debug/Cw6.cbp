@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.cpp">
+		<Unit filename="/home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.cpp">
 			<Option target="Cw6"/>
 		</Unit>
-		<Unit filename="/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.h">
+		<Unit filename="/home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.h">
 			<Option target="Cw6"/>
 		</Unit>
 		<Unit filename="/home/mateusz/Documents/CppStudyCourse2018/Cw6/main.cpp">

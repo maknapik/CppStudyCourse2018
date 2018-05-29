@@ -4,23 +4,23 @@
 #include <map>
 #include <algorithm>
 /*************************************************/
-#include "Obiect.h"
+#include "Zwierze.h"
 /*************************************************/
-const int TREES = 20;
+const int ANIMALS = 20;
 string gatunek = "";
 /*************************************************/
-Obiect randomObiect()
+Zwierze randomObject()
 {
-    Obiect obiect;
-    return obiect;
+    Zwierze object;
+    return object;
 }
 /*************************************************/
-bool compare(const Obiect &a, const Obiect &b)
+bool compare(const Zwierze &a, const Zwierze &b)
 {
-    return a.getSrednica() < b.getSrednica();
+    return a.getWiek() < b.getWiek();
 }
 /*************************************************/
-bool isGenre(const Obiect &a)
+bool isGenre(const Zwierze &a)
 {
     return a.getGatunek() == gatunek;
 }
@@ -29,15 +29,15 @@ int main()
 {
 
     //VECTOR
-    vector<Obiect> obiectsVector;
+    vector<Zwierze> obiectsVector;
 
-    for(int i = 0 ; i < TREES ; i++)
+    for(int i = 0 ; i < ANIMALS ; i++)
     {
-        Obiect obiect;
+        Zwierze obiect;
         obiectsVector.push_back(obiect);
     }
 
-    vector<Obiect>::iterator it;
+    vector<Zwierze>::iterator it;
 
     for(it = obiectsVector.begin() ; it != obiectsVector.end() ; it++)
     {
@@ -45,7 +45,7 @@ int main()
     }
 
     //SET
-    set<Obiect> obiectsSet;
+    set<Zwierze> obiectsSet;
 
     for(it = obiectsVector.begin() ; it != obiectsVector.end() ; it++)
     {
@@ -53,14 +53,14 @@ int main()
     }
 
     //MAP
-    map<string, Obiect> obiectsMap;
+    map<string, Zwierze> obiectsMap;
 
     for(it = obiectsVector.begin() ; it != obiectsVector.end() ; it++)
     {
         obiectsMap.insert(make_pair(it->hash(), *it));
     }
 
-    map<string, Obiect>::iterator itm;
+    map<string, Zwierze>::iterator itm;
 
     for(itm = obiectsMap.begin() ; itm != obiectsMap.end() ; itm++)
     {
@@ -69,26 +69,26 @@ int main()
 
     //Operations
     //generate
-    vector<Obiect> vec(25);
-    generate(vec.begin(), vec.end(), randomObiect);
+    vector<Zwierze> vec(15);
+    generate(vec.begin(), vec.end(), randomObject);
 
     for(it = vec.begin() ; it != vec.end() ; it++)
     {
         cout << *it;
     }
 
-    //min_element
-    cout << "Min element: " << *min_element(vec.begin(), vec.end(), compare) << endl;
+    //max_element
+    cout << "Max element: " << *max_element(vec.begin(), vec.end(), compare) << endl;
 
     //count_if
     cout << "Type gatunek: ";
     cin >> gatunek;
 
-    cout << "Ilosc drzew z podanego gatunku: " << count_if(vec.begin(), vec.end(), isGenre) << endl;
+    cout << "Ilosc zwierzat z podanego gatunku: " << count_if(vec.begin(), vec.end(), isGenre) << endl;
 
     //for_each
     cout << "\nfor_each\n";
-    for_each(vec.begin(), vec.end(), [](Obiect &a){ a.addSrednica(0.1); });
+    for_each(vec.begin(), vec.end(), [](Zwierze &a){ a.addWiek(1); });
     for(it = vec.begin() ; it != vec.end() ; it++)
     {
         cout << *it;
@@ -96,8 +96,8 @@ int main()
 
     //remove_if
     cout << "\nremove_if\n";
-    vec.erase(remove_if(vec.begin(), vec.end(), [](Obiect &a)
-    { if(a.getSrednica() > 1.0) return true;
+    vec.erase(remove_if(vec.begin(), vec.end(), [](Zwierze &a)
+    { if(a.getWiek() > 10) return true;
       else return false;}), vec.end());
     for(it = vec.begin() ; it != vec.end() ; it++)
     {

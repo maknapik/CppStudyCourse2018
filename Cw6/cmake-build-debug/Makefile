@@ -123,32 +123,32 @@ Cw6/fast:
 	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/build
 .PHONY : Cw6/fast
 
-Obiect.o: Obiect.cpp.o
+Zwierze.o: Zwierze.cpp.o
 
-.PHONY : Obiect.o
+.PHONY : Zwierze.o
 
 # target to build an object file
-Obiect.cpp.o:
-	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Obiect.cpp.o
-.PHONY : Obiect.cpp.o
+Zwierze.cpp.o:
+	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Zwierze.cpp.o
+.PHONY : Zwierze.cpp.o
 
-Obiect.i: Obiect.cpp.i
+Zwierze.i: Zwierze.cpp.i
 
-.PHONY : Obiect.i
+.PHONY : Zwierze.i
 
 # target to preprocess a source file
-Obiect.cpp.i:
-	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Obiect.cpp.i
-.PHONY : Obiect.cpp.i
+Zwierze.cpp.i:
+	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Zwierze.cpp.i
+.PHONY : Zwierze.cpp.i
 
-Obiect.s: Obiect.cpp.s
+Zwierze.s: Zwierze.cpp.s
 
-.PHONY : Obiect.s
+.PHONY : Zwierze.s
 
 # target to generate assembly for a file
-Obiect.cpp.s:
-	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Obiect.cpp.s
-.PHONY : Obiect.cpp.s
+Zwierze.cpp.s:
+	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Zwierze.cpp.s
+.PHONY : Zwierze.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,9 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Cw6"
-	@echo "... Obiect.o"
-	@echo "... Obiect.i"
-	@echo "... Obiect.s"
+	@echo "... Zwierze.o"
+	@echo "... Zwierze.i"
+	@echo "... Zwierze.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

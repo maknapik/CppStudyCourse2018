@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Cw6.dir/main.cpp.o"
-  "CMakeFiles/Cw6.dir/Obiect.cpp.o"
+  "CMakeFiles/Cw6.dir/Zwierze.cpp.o"
   "CMakeFiles/Cw6.dir/random.cpp.o"
   "Cw6.pdb"
   "Cw6"

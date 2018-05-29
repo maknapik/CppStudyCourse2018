@@ -7,22 +7,24 @@
 /*************************************************/
 using namespace std;
 /*************************************************/
-const string gatunki[] = {"dab", "orzech", "sosna", "brzoza", "swierk"};
-const int size = (sizeof(gatunki) / sizeof(gatunki[0]));
+const string imiona[] = {"Ares", "Reksio", "Bonifacy", "Kleofas", "Tiger"};
+const string gatunki[] = {"kot", "pies", "mysz", "malpa", "wieloryb"};
+const int sizei = (sizeof(imiona) / sizeof(imiona[0]));
+const int sizeg = (sizeof(gatunki) / sizeof(gatunki[0]));
 /*************************************************/
-class Obiect {
+class Zwierze {
     private:
+        string imie;
         string gatunek;
-        double srednica;
         int wiek;
     public:
-        Obiect();
-        friend ostream &operator<<(ostream &output, const Obiect &o);
+        Zwierze();
+        friend ostream &operator<<(ostream &output, const Zwierze &o);
         string hash() const;
-        bool operator<(const Obiect &o) const;
-        double getSrednica() const { return srednica; }
+        bool operator<(const Zwierze &o) const;
+        double getWiek() const { return wiek; }
         string getGatunek() const { return gatunek; }
-        void addSrednica(double amount) { srednica += amount; }
+        void addWiek(double amount) { wiek += amount; }
 };
 /*************************************************/
 #endif //CW6_OBIECT_H

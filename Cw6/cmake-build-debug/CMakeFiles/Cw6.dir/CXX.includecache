@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.cpp
-Obiect.h
-/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.cpp
+Zwierze.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.h
 
-/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.h
 iostream
 -
 random.h
@@ -27,8 +27,8 @@ map
 -
 algorithm
 -
-Obiect.h
-/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.h
+Zwierze.h
+/home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.h
 
 /home/mateusz/Documents/CppStudyCourse2018/Cw6/random.cpp
 iostream

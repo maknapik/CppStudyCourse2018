@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.cpp" "/home/mateusz/Documents/CppStudyCourse2018/Cw6/cmake-build-debug/CMakeFiles/Cw6.dir/Obiect.cpp.o"
+  "/home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.cpp" "/home/mateusz/Documents/CppStudyCourse2018/Cw6/cmake-build-debug/CMakeFiles/Cw6.dir/Zwierze.cpp.o"
   "/home/mateusz/Documents/CppStudyCourse2018/Cw6/main.cpp" "/home/mateusz/Documents/CppStudyCourse2018/Cw6/cmake-build-debug/CMakeFiles/Cw6.dir/main.cpp.o"
   "/home/mateusz/Documents/CppStudyCourse2018/Cw6/random.cpp" "/home/mateusz/Documents/CppStudyCourse2018/Cw6/cmake-build-debug/CMakeFiles/Cw6.dir/random.cpp.o"
   )

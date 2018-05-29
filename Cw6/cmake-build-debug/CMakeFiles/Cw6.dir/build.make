@@ -81,28 +81,28 @@ CMakeFiles/Cw6.dir/main.cpp.o.provides: CMakeFiles/Cw6.dir/main.cpp.o.requires
 CMakeFiles/Cw6.dir/main.cpp.o.provides.build: CMakeFiles/Cw6.dir/main.cpp.o
 
 
-CMakeFiles/Cw6.dir/Obiect.cpp.o: CMakeFiles/Cw6.dir/flags.make
-CMakeFiles/Cw6.dir/Obiect.cpp.o: ../Obiect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Documents/CppStudyCourse2018/Cw6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cw6.dir/Obiect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cw6.dir/Obiect.cpp.o -c /home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.cpp
+CMakeFiles/Cw6.dir/Zwierze.cpp.o: CMakeFiles/Cw6.dir/flags.make
+CMakeFiles/Cw6.dir/Zwierze.cpp.o: ../Zwierze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Documents/CppStudyCourse2018/Cw6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cw6.dir/Zwierze.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cw6.dir/Zwierze.cpp.o -c /home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.cpp
 
-CMakeFiles/Cw6.dir/Obiect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cw6.dir/Obiect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.cpp > CMakeFiles/Cw6.dir/Obiect.cpp.i
+CMakeFiles/Cw6.dir/Zwierze.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cw6.dir/Zwierze.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.cpp > CMakeFiles/Cw6.dir/Zwierze.cpp.i
 
-CMakeFiles/Cw6.dir/Obiect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cw6.dir/Obiect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Documents/CppStudyCourse2018/Cw6/Obiect.cpp -o CMakeFiles/Cw6.dir/Obiect.cpp.s
+CMakeFiles/Cw6.dir/Zwierze.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cw6.dir/Zwierze.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Documents/CppStudyCourse2018/Cw6/Zwierze.cpp -o CMakeFiles/Cw6.dir/Zwierze.cpp.s
 
-CMakeFiles/Cw6.dir/Obiect.cpp.o.requires:
+CMakeFiles/Cw6.dir/Zwierze.cpp.o.requires:
 
-.PHONY : CMakeFiles/Cw6.dir/Obiect.cpp.o.requires
+.PHONY : CMakeFiles/Cw6.dir/Zwierze.cpp.o.requires
 
-CMakeFiles/Cw6.dir/Obiect.cpp.o.provides: CMakeFiles/Cw6.dir/Obiect.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Obiect.cpp.o.provides.build
-.PHONY : CMakeFiles/Cw6.dir/Obiect.cpp.o.provides
+CMakeFiles/Cw6.dir/Zwierze.cpp.o.provides: CMakeFiles/Cw6.dir/Zwierze.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Cw6.dir/build.make CMakeFiles/Cw6.dir/Zwierze.cpp.o.provides.build
+.PHONY : CMakeFiles/Cw6.dir/Zwierze.cpp.o.provides
 
-CMakeFiles/Cw6.dir/Obiect.cpp.o.provides.build: CMakeFiles/Cw6.dir/Obiect.cpp.o
+CMakeFiles/Cw6.dir/Zwierze.cpp.o.provides.build: CMakeFiles/Cw6.dir/Zwierze.cpp.o
 
 
 CMakeFiles/Cw6.dir/random.cpp.o: CMakeFiles/Cw6.dir/flags.make
@@ -132,14 +132,14 @@ CMakeFiles/Cw6.dir/random.cpp.o.provides.build: CMakeFiles/Cw6.dir/random.cpp.o
 # Object files for target Cw6
 Cw6_OBJECTS = \
 "CMakeFiles/Cw6.dir/main.cpp.o" \
-"CMakeFiles/Cw6.dir/Obiect.cpp.o" \
+"CMakeFiles/Cw6.dir/Zwierze.cpp.o" \
 "CMakeFiles/Cw6.dir/random.cpp.o"
 
 # External object files for target Cw6
 Cw6_EXTERNAL_OBJECTS =
 
 Cw6: CMakeFiles/Cw6.dir/main.cpp.o
-Cw6: CMakeFiles/Cw6.dir/Obiect.cpp.o
+Cw6: CMakeFiles/Cw6.dir/Zwierze.cpp.o
 Cw6: CMakeFiles/Cw6.dir/random.cpp.o
 Cw6: CMakeFiles/Cw6.dir/build.make
 Cw6: CMakeFiles/Cw6.dir/link.txt
@@ -152,7 +152,7 @@ CMakeFiles/Cw6.dir/build: Cw6
 .PHONY : CMakeFiles/Cw6.dir/build
 
 CMakeFiles/Cw6.dir/requires: CMakeFiles/Cw6.dir/main.cpp.o.requires
-CMakeFiles/Cw6.dir/requires: CMakeFiles/Cw6.dir/Obiect.cpp.o.requires
+CMakeFiles/Cw6.dir/requires: CMakeFiles/Cw6.dir/Zwierze.cpp.o.requires
 CMakeFiles/Cw6.dir/requires: CMakeFiles/Cw6.dir/random.cpp.o.requires
 
 .PHONY : CMakeFiles/Cw6.dir/requires
